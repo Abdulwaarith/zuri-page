@@ -2,11 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: rgb(255, 253, 245); */
 }
 body {
-  font-family: "Graphik";
-  padding-bottom: 20em;
+  font-family: "Graphik", "Poppins", sans-serif;
   background-color: #fffdf5;
 }
 .wrapper {
@@ -223,7 +221,7 @@ a {
 
 .star {
   width: 16%;
-  margin-left: 2em;
+  margin-left: 5em;
 }
 .reasons-ctn {
   padding-top: 5em;
@@ -546,6 +544,9 @@ a {
   cursor: pointer;
   box-shadow: 0 11px 22px rgba(231 51 43 / 10%);
 }
+.cta-icon {
+  margin-right: 0.5em;
+}
 .structure-ctn {
   padding: 3em 6%;
 }
@@ -585,6 +586,16 @@ a {
   display: flex;
   overflow: hidden;
   margin: 2.5em auto;
+  box-shadow: 15px 31px 66px rgba(231, 51, 43, 0.2);
+}
+.structure-top {
+  position: relative;
+}
+.move {
+  position: absolute;
+  left: -5em;
+  top: 32em;
+  width: 10%;
 }
 .details {
   flex-basis: 50%;
@@ -596,6 +607,7 @@ a {
   background-color: #1b1a20;
   flex-grow: 0;
   font-family: "Graphik";
+  box-shadow: 15px 31px 66px rgba(231, 51, 43, 0.2);
 }
 .details > h2 {
   font-size: 30px;
@@ -641,22 +653,99 @@ a {
   width: 5%;
   padding-left: 0.5em;
 }
+.circle1 {
+  position: absolute;
+  right: 5em;
+  top: -18em;
+  width: 13%;
+  z-index: -1;
+}
+
+.circle2 {
+  width: 10%;
+  position: absolute;
+  bottom: 28em;
+}
+#get-started {
+  padding: 0 5%;
+  position: relative;
+}
+.get-started-ctn {
+  margin-top: 9em;
+  background-color: #e7332b;
+  border-radius: 25px;
+  color: #fff;
+  text-align: center;
+  padding: 4em 0 6em 0;
+  position: relative;
+}
+.get-started-ctn p {
+  font-size: 18px;
+}
+.get-started-ctn h2 {
+  line-height: 65px;
+  word-spacing: 0.05em;
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: 600;
+}
+.get-started-btn {
+  margin-top: 3em;
+  text-align: center;
+  background: #fff;
+  border-radius: 75px;
+  min-width: 95px;
+  font-family: inherit;
+  font-size: 16px;
+  color: #e7332b;
+  border: none;
+  padding: 12px 30px;
+  cursor: pointer;
+  box-shadow: 0 1.5px 5px rgba(31, 27, 27, 0.4);
+}
+.get-started-wire {
+  position: absolute;
+  left: 8em;
+  top: 3em;
+  width: 11%;
+}
+.get-started-bend {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 12%;
+}
+.curve2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 10%;
+}
+.main-holes {
+  width: 13%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
 /* FOOTER */
 .footer-ctn {
   width: 100%;
   padding: 4rem 5% 1rem 5%;
-  /* color: #fff; */
 }
 footer a {
-  /* color: #fff; */
   text-decoration: none;
 }
-.link-img {
-  width: 35px;
-  height: 30px;
-  padding-right: 5px;
-  background-color: #e7332b;
+.f-link {
+  padding-right: 4px;
+}
+.copyright,
+.declaration a {
+  color: #333;
+  font-size: 0.9em;
+}
+.space {
+  padding-right: 15px;
 }
 .top-footer,
 .bottom-footer {
