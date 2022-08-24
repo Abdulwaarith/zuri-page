@@ -1,3 +1,5 @@
-# zuri-page
-Replication of zuri's landing, training and internship page.
-Live here : https://abdulwaarith.github.io/zuri-page/
+https://taofikatpurity01.github.io/Replication-of-zuri-website/
+
+
+
+This is the link to the published page 
